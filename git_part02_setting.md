@@ -61,3 +61,9 @@ $ git add git_part02_setting.md
 
 ## 파일 커밋(Commit) 하기
 $ git commit -m "setting"
+
+## .gitignore 만들기
+제외할 파일 목록을 지정하는 파일
+```Bash
+$ echo *.log > .gitignore
+```
